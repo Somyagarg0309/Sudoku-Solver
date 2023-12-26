@@ -43,6 +43,8 @@ async function solveSudoku() {
             if (sudokuArray[row][col] !== 0) {
                 cell.classList.add("user-input");
             }
+            if (sudokuArry[row][column]<=0){
+                alert("Wrong Inputs");
         }
     }
 
