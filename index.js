@@ -45,6 +45,7 @@ async function solveSudoku() {
             }
             if (sudokuArry[row][column]<=0){
                 alert("Wrong Inputs");
+            }
         }
     }
 
